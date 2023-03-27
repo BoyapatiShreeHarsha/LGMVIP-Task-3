@@ -1,0 +1,5 @@
+.Display_body{
+    background-color: white;
+    flex-grow: 1;
+    min-width: 50%;
+}

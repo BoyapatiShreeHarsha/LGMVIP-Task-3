@@ -1,0 +1,39 @@
+.Form_body{
+    background-color: #CEE5FA;
+    flex-grow: 1;
+    min-height: 100vh;
+    position: relative;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.From_box{
+    position: absolute;
+    width: 80%;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.Form_fill{
+    display: flex;
+    justify-content: space-between;
+}
+.Form_fill>label{
+    margin: 0px 5px;
+}
+.Form_fill>input{
+    border-radius: 4px;
+}
+
+.Form_buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.Form_buttons>span{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Form_buttons>span>span{
+    margin: 0px 5px;
+}
